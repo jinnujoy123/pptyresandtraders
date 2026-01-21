@@ -13,6 +13,14 @@ html{
     width: 100px;
     height: 100px;
 }
+.carousel-inner{
+    margin-top: 130px;
+  }
+@media screen and (max-width: 768px) {
+  .carousel-inner{
+    margin-top: 0px;
+  }
+}
 @media screen and (max-width: 768px) {
   #logo {
        width: 50px;
@@ -43,18 +51,20 @@ html{
 
 }
 #nav a{
-     color:#8f2828;
+
+     color:rgb(29, 12, 126);
+     font-weight: bold;
 }
 #nav a:hover{
-  background-color: #8f2828;
-  color:white ;
+  background-color: white;
+  
 }
 #main{
   width: 100%;
   position: absolute;
   top: 0px;
   z-index: 100;
-  background-image: linear-gradient(to bottom,white,rgba(255, 255, 255, 0));
+ 
  
 
 }
@@ -71,7 +81,8 @@ html{
 
 }
 .title{
-  color: black;
+ color:rgb(29, 12, 126);
+ font-weight: bold;
   text-shadow: 2px 2px 4px #757474cb
 }
 
