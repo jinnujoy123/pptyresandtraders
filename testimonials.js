@@ -42,7 +42,7 @@ const testimonials = [
     return `
           <div class="card">
               <div class="profile">
-                <img src="${testimonial.image}" alt="img" />
+                <img src="${testimonial.image}" alt="4.9 google star rating" />
                
               </div>
   
