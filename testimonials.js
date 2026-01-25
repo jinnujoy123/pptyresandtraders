@@ -2,39 +2,39 @@
 const testimonials = [
     {
      
-      image: "./images/IMG_20250320_170128.jpg",
+      image: "./images/img_20250320_170128.jpg",
     },
     {
       
-      image: "./images/IMG_20250320_171925.jpg",
+      image: "./images/img_20250320_171925.jpg",
     },
     {
      
-      image: "./images/IMG_20250320_172301.jpg",
+      image: "./images/img_20250320_172301.jpg",
     },
     {
      
-       image: "./images/IMG_20250320_172329.jpg",
+       image: "./images/img_20250320_172329.jpg",
     },
     {
       
-      image: "./images/IMG_20250320_172700.jpg",
+      image: "./images/img_20250320_172700.jpg",
     },
     {
       
-      image: "./images/IMG_20250320_172400.jpg",
+      image: "./images/img_20250320_172400.jpg",
     },
     {
      
-      image: "./images/IMG_20250320_172432.jpg",
+      image: "./images/img_20250320_172432.jpg",
    },
    {
      
-     image: "./images/IMG_20250320_173329.jpg",
+     image: "./images/img_20250320_173329.jpg",
    },
    {
      
-     image: "./images/IMG_20250320_172916.jpg",
+     image: "./images/img_20250320_172916.jpg",
    },
   ];
   
@@ -42,7 +42,7 @@ const testimonials = [
     return `
           <div class="card">
               <div class="profile">
-                <img src="${testimonial.image}" alt="4.9 google star rating" />
+                <img src="${testimonial.image}" alt="4.9 google star ratin" />
                
               </div>
   
