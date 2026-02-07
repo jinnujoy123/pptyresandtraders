@@ -15,6 +15,15 @@
     <loc>https://pptyres.com/contact.html</loc>
     <priority>0.8</priority>
   </url>
+<url>
+  <loc>https://pptyres.com/privacy-policy.html</loc>
+  <priority>0.3</priority>
+</url>
+
+<url>
+  <loc>https://pptyres.com/terms-and-conditions.html</loc>
+  <priority>0.3</priority>
+</url>
 
 </urlset>
 
