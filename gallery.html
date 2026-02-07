@@ -156,7 +156,7 @@ at PP Tyres and Traders, Aluva, Ernakulam.
   <a href="/contact.html" class="cta-btn">Contact PP Tyres & Traders</a>
 </div>
 
-  <!--/start-footer-section-->
+     <!--/start-footer-section-->
     <div id="contact">
       <div class="footer-section py-5 bg-dark">
         <div class="container-fluid">
@@ -210,6 +210,14 @@ at PP Tyres and Traders, Aluva, Ernakulam.
                     Aluva,Kerala-683106
                   </p>
                 </div>
+                <div class="my-3 my-lg-0 mt-lg-3">
+  <a href="/privacy-policy.html" class="legal-link">
+    Privacy Policy
+  </a>
+  <a href="/terms-and-conditions.html" class="legal-link ms-3">
+    Terms & Conditions
+  </a>
+</div>
               </div>
             </div>
             <div class="col-md-3">
@@ -230,9 +238,15 @@ at PP Tyres and Traders, Aluva, Ernakulam.
     <!-- copyright -->
     <div class="w-100 copyright">
       <p class="text-light text-center py-3">
-        Copyright © 2026 All rights reserved | PP TYRES AND TRADERS
-      </p>
+  Serving customers since 2010 |
+  © <span id="year"></span> PP TYRES AND TRADERS. All rights reserved.
+</p>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
     </div>
-    <!-- end of copyright -->
+    <!-- end of copyright --> 
 </body>
 </html>

@@ -562,3 +562,13 @@ img.scroll_top{
 .contact-trust a:hover {
   text-decoration: underline;
 }
+
+.footer-section a.legal-link {
+  color: #316497;
+  text-decoration: none;
+}
+
+.footer-section a.legal-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
